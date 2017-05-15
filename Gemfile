@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gemspec
 
+gem "rake"
 gem 'rdf',              github: "ruby-rdf/rdf",               branch: "develop"
 gem 'json-ld',          github: "ruby-rdf/json-ld",           branch: "develop"
 gem 'json-ld-preloaded',github: "ruby-rdf/json-ld-preloaded", branch: "develop"
